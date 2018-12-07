@@ -1,5 +1,17 @@
-//style.css
+/*//style.css */
 
 h1 {
+   text-align: center;
+   color: red;
+}
+
+.title {
+   text-align: center;
    color: blue;
+   font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+}
+
+p {text-align: center;
+   font-family: 'Titillium Web', sans-serif;
 }
