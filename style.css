@@ -56,4 +56,18 @@ a.github_li:hover {color: black; background-color: red;}
 a.internal_li:link, a.internal_li:visited {color: black;}
 a.internal_li:hover {color: black; background-color: green;}
 
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+
+   
+}
+
 /*div.internal_li a:hover {background-color: green;}*/
