@@ -28,7 +28,6 @@ p {text-align: center;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 10px;
-   
 }
 
 .internal_li {
@@ -39,11 +38,10 @@ p {text-align: center;
    border: solid 3px green;
    display: block;
    margin: 0 auto;
-   
 }
 
-a {text-decoration: none}
-a:hover {color: red}
+a {text-decoration: none;}
+a:hover {color: red; cursor: pointer;}
 
 @keyframes myanimation {
    from {font-size: 50px;}
@@ -56,6 +54,23 @@ a.github_li:hover {color: black; background-color: red;}
 a.internal_li:link, a.internal_li:visited {color: black;}
 a.internal_li:hover {color: black; background-color: green;}
 
+.button {
+   background-color: blue;
+   border: none;
+   color: white;
+   padding: 15px 25px;
+   text-align: center;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 16px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   
+}
+
+.button:hover {background-color: #0000B5;}
+
 iframe {
    display: block;
    margin: 0 auto;
@@ -65,9 +80,7 @@ img {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 30px;
-
-   
+   margin-top: 30px;   
 }
 
 /*div.internal_li a:hover {background-color: green;}*/
