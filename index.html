@@ -7,22 +7,30 @@
     <title>This is the title</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <script>
+        function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) ) + min;
+        }
+    </script>
         
 </head>
 
 <body>
     
+    
 <h1>Hello World</h1>
 <div class="title">Hello World</div>
 <a class="github_li" href="https://github.com/Vllit/Vllit.github.io" target="_blank" title="This is a link to GitHub">Github!</a>
-<!--<div class="github_li"><a href="https://github.com/Vllit/Vllit.github.io" title="This is a link to GitHub">Github!</a></div>--> 
-<!--<div class="internal_li"><a href="secondpage.html" title="This is an internal link">Second page</a></div>-->
 <a class="internal_li" href="secondpage.html" title="This is an internal link">Second page</a>
 <p id="jsdemo">Text</p>
 
 <button class="button" type="button" onclick='document.getElementById("jsdemo").innerHTML = "Completely different Text";'>Click Me!</button> 
 <button class="button" type="button" onclick='document.getElementById("jsdemo").innerHTML = "Text";'>Reset</button>
+
+<button class="button" type="button" onclick='document.getElementById("rndInt").innerHTML = getRndInteger(1, 9999);'>Get random number</button>
+<div class="rndInt"><p id="rndInt">&nbsp</p></div>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BrCKvKXvN2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <img src="images/Till.png" alt="An image">

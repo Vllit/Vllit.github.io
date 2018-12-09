@@ -10,7 +10,6 @@ h1 {
    color: blue;
    font-family: 'Roboto', sans-serif;
    font-size: 50px;
-   /*-webkit-animation: myanimation 10s 50 ease; -moz-animation: myanimation 10s 50 ease; -o-animation: myanimation 10s 50 ease;*/
    animation: myanimation 10s infinite;
 }
 
@@ -66,10 +65,19 @@ a.internal_li:hover {color: black; background-color: green;}
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 20px;
-   
 }
 
 .button:hover {background-color: #0000B5;}
+
+.rndInt {
+   width: 100px;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 40px;
+   padding: 5px;
+   border: solid 3px black;
+}
 
 iframe {
    display: block;
@@ -82,5 +90,3 @@ img {
    margin-right: auto;
    margin-top: 30px;   
 }
-
-/*div.internal_li a:hover {background-color: green;}*/
